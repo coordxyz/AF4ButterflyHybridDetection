@@ -1,6 +1,6 @@
 # Butterfly Hybrid Detection based on AnomalyFactory
 ![](icons/teaser.png)
-[Introduction](https://www.codabench.org/competitions/3764/) [Paper](https://arxiv.org/abs/2408.09533)
+[Introduction](https://www.codabench.org/competitions/3764/) | [Paper](https://arxiv.org/abs/2408.09533)
 ## Preparetion
 1. Download data
    https://drive.google.com/drive/folders/1QMTpK6q29D42IJZcKKkEu999a7w6eTTo?usp=drive_link
