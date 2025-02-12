@@ -34,7 +34,7 @@ AF4ButterflyHybridDetection
 │   ├── classifiers
 │   └── AFgenerators
 │      ├── AF4nonhybrid
-│      └── AFhybrid
+│      └── AF4hybrid
 └── Datasets
     ├── Images4TrainClassifier
     ├── Images4TrainAFnonhybrid
