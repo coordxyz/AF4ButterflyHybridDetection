@@ -98,23 +98,26 @@ Models
     ├── clf1024.pth
     └── sgd_clf.pkl
 ```
-Note: The edge maps are extracted by the pre-trained [PidiNet](https://github.com/hellozhuo/pidinet).  
 3. Download data (Images4TrainAFnonhybrid) for testing from https://drive.google.com/file/d/1Fk41aXh9n02roX57ynnUip069Hc3amWv/view?usp=drive_link.  
-4. Put the downloaded Images4TrainAFnonhybrid into path: Datasets/  
+4. Put the downloaded Images4TrainAFnonhybrid into path: Datasets/
 The structure of downloaded folder is shown below.
 ```
 Datasets
 ├── Images4TrainAFnonhybrid
 │   ├── Images
-│   │   ├── 0/...
+│   │   ├── 0 
+│   │   │   └── train
+│   │   │       ├── good/*.jpg
+│   │   │       └── pidinet_edges/*.png
 │   │   ├── ...
 │   │   └── 13/...
 │   └── Lists
 │       ├── train_AFnonhybrid/...
 │       ├── test_nonsignalhybrid/...
-│       ├── train_signalhybrid/...
+│       ├── test_signalhybrid/...
 │       └── test_nonhybrid/...
 ```
+Note: The edge maps are extracted by the pre-trained [PidiNet](https://github.com/hellozhuo/pidinet).
 5. Run generating non-hybrid images. It will generates images according to file names list in test_nonhybrid/test_color_ref.txt and test_nonhybrid/test_edges.txt.  
 Please modify the following parameters in test_AF4nonhybrid.sh if needed.  
 ```
