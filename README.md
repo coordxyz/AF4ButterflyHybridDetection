@@ -117,7 +117,7 @@ Datasets
 │       ├── test_signalhybrid/...
 │       └── test_nonhybrid/...
 ```
-Note: The edge maps are extracted by the pre-trained [PidiNet](https://github.com/hellozhuo/pidinet).
+Note: The edge maps are extracted by the pre-trained [PidiNet](https://github.com/hellozhuo/pidinet).  
 5. Run generating non-hybrid images. It will generates images according to file names list in test_nonhybrid/test_color_ref.txt and test_nonhybrid/test_edges.txt.  
 Please modify the following parameters in test_AF4nonhybrid.sh if needed.  
 ```
