@@ -1,5 +1,5 @@
 # Butterfly Hybrid Detection based on AnomalyFactory
-(:construction:UNDER CONSTRUCTION)
+( :construction: UNDER CONSTRUCTION)
 ![](icons/teaser.png)
 [Challenge](https://www.codabench.org/competitions/3764/) | [AnomalyFactory](https://arxiv.org/abs/2408.09533)
 ## Preparetion
