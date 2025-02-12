@@ -98,8 +98,8 @@ Models
     └── sgd_clf.pkl
 ```
 Note: The edge maps are extracted by the pre-trained [PidiNet](https://github.com/hellozhuo/pidinet).  
-3. Download data (Images4TrainAFnonhybrid) for testing from https://drive.google.com/file/d/1Fk41aXh9n02roX57ynnUip069Hc3amWv/view?usp=drive_link.
-4. Put the downloaded Images4TrainAFnonhybrid into path: Datasets/
+3. Download data (Images4TrainAFnonhybrid) for testing from https://drive.google.com/file/d/1Fk41aXh9n02roX57ynnUip069Hc3amWv/view?usp=drive_link.  
+4. Put the downloaded Images4TrainAFnonhybrid into path: Datasets/  
 The structure of downloaded folder is shown below.
 ```
 Datasets
@@ -114,49 +114,49 @@ Datasets
 │       ├── train_signalhybrid/...
 │       └── test_nonhybrid/...
 ```
-5. Run generating non-hybrid images. It will generates images according to file names list in test_nonhybrid/test_color_ref.txt and test_nonhybrid/test_edges.txt.
-Please modify the following parameters in test_AF4nonhybrid.sh if needed.
+5. Run generating non-hybrid images. It will generates images according to file names list in test_nonhybrid/test_color_ref.txt and test_nonhybrid/test_edges.txt.  
+Please modify the following parameters in test_AF4nonhybrid.sh if needed.  
 ```
 --dataroot ./Datasets/Images4TrainAFnonhybrid/List/test_nonhybrid/ 
 --how_many 5 #The number of testing images
 --gpu_ids 0 
 --results_dir ./results/butterflyContest/nh/ #The savepath
 ```
-Then, run
+Then, run  
 ```bash
    cd AnomalyFactory
    ./scripts/test_AF4nonhybrid.sh
 ```
-6. Run generating non-signal hybrid images. 
-Please modify the following parameters in test_AF4hybrid.sh if needed.
+6. Run generating non-signal hybrid images.   
+Please modify the following parameters in test_AF4hybrid.sh if needed.  
 ```
 --dataroot ./Datasets/Images4TrainAFnonhybrid/List/test_nonsignalhybrid/ 
 --how_many 5 #The number of testing images
 --gpu_ids 0 
 --results_dir ./results/butterflyContest/nsh/
 ```
-Then, run
+Then, run  
 ```bash
    cd AnomalyFactory
    ./scripts/test_AF4hybrid.sh
 ```
-7. Run generating signal hybrid images. 
-Please modify the following parameters in test_AF4hybrid.sh.
+7. Run generating signal hybrid images.   
+Please modify the following parameters in test_AF4hybrid.sh.  
 ```
 --dataroot ./Datasets/Images4TrainAFnonhybrid/List/test_signalhybrid/ 
 --how_many 5 #The number of testing images
 --gpu_ids 0 
 --results_dir ./results/butterflyContest/sh/
 ```
-Then, run
+Then, run  
 ```bash
    cd AnomalyFactory
    ./scripts/test_AF4hybrid.sh
 ```
 ### Training
-1. Download training data (Images4TrainAFhybrid) from https://drive.google.com/file/d/1UUqLajOSo1faw_tE_JkWMMKvl_Ck6xdJ/view?usp=drive_link.
-2. Put the downloaded Images4TrainAFhybrid into path: Datasets/  
-The structure of downloaded folder is shown below.
+1. Download training data (Images4TrainAFhybrid) from https://drive.google.com/file/d/1UUqLajOSo1faw_tE_JkWMMKvl_Ck6xdJ/view?usp=drive_link.  
+2. Put the downloaded Images4TrainAFhybrid into path: Datasets/    
+The structure of downloaded folder is shown below.  
 ```
 Datasets
 ├── Images4TrainAFhybrid
@@ -166,13 +166,13 @@ Datasets
 │   └── Lists
 │       └── train_AFhybrid/...
 ```
-Note: Images4TrainAFhybrid and Images4TrainAFnonhybrid both contain only challenge images but with 500x333 and 256x256 resolutions respectively.
-3. Run training hybrid generator.
+Note: Images4TrainAFhybrid and Images4TrainAFnonhybrid both contain only challenge images but with 500x333 and 256x256 resolutions respectively.  
+3. Run training hybrid generator.  
 ```bash
    cd AnomalyFactory
    ./scripts/train_AF4hybrid.sh
 ```
-4. Run training non-hybrid generator.
+4. Run training non-hybrid generator.  
 ```bash
    cd AnomalyFactory
    ./scripts/train_AF4nonhybrid.sh
