@@ -97,7 +97,7 @@ Models
     ├── clf1024.pth
     └── sgd_clf.pkl
 ```
-Note: The edge maps are extracted by the pre-trained [PidiNet](https://github.com/hellozhuo/pidinet).
+Note: The edge maps are extracted by the pre-trained [PidiNet](https://github.com/hellozhuo/pidinet).  
 3. Download data (Images4TrainAFnonhybrid) for testing from https://drive.google.com/file/d/1Fk41aXh9n02roX57ynnUip069Hc3amWv/view?usp=drive_link.
 4. Put the downloaded Images4TrainAFnonhybrid into path: Datasets/
 The structure of downloaded folder is shown below.
