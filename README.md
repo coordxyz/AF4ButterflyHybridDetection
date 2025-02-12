@@ -2,6 +2,8 @@
 ( :construction: UNDER CONSTRUCTION)
 ![](icons/teaser.png)
 [Challenge](https://www.codabench.org/competitions/3764/) | [AnomalyFactory](https://arxiv.org/abs/2408.09533)
+## Overview
+We propose a solution for Butterfly Hybrid Detection Challenge based on the AnomalyFactory that is an unsupervised anomaly generation framework. The Butterfly Hybrid Detection Challenge provides a training set consisting of 1,991 non-hybrid and 91 hybrid images and a butterfly_anomaly_train.csv file that reveals the subspecies ID of all images. Based on the challenge training set, we train two generative models, AF4hybrid and AF4nonhybrid, to generate 8,874 hybrid and 1,991 non-hybrid images respectively. With the challenge training set and generated images, we use DINOV2 to extract the representative features and further train a sgd classifier sgd_clf.pkl and a linear classifier clf1024.pth. The final result combines the predictions of these two classifiers.
 ## Preparetion
 1. Download data
    https://drive.google.com/drive/folders/1QMTpK6q29D42IJZcKKkEu999a7w6eTTo?usp=drive_link
