@@ -76,7 +76,7 @@ if __name__ == "__main__":
 
     #### INPUT/OUTPUT: Get input and output directory names
     # input_dir = os.path.abspath(argv[1])
-    input_dir = '/ns_data/DATA/AD/ButterflyHybridDetectionChallenge/Images4TrainAFhybrid/Images/hybrid/train/good/'
+    input_dir = 'ImageSamples/'
     output_dir = './' #os.path.abspath(argv[2])
     # program_dir = os.path.abspath(argv[3])
     # submission_dir = os.path.abspath(argv[4])
