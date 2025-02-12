@@ -116,10 +116,6 @@ Datasets
 │       └── test_nonhybrid/...
 ```
 5. Run generating non-hybrid images. It will generates images according to file names list in test_nonhybrid/test_color_ref.txt and test_nonhybrid/test_edges.txt.
-```bash
-   cd AnomalyFactory
-   ./scripts/test_AF4nonhybrid.sh
-```
 Please modify the following parameters in test_AF4nonhybrid.sh if needed.
 ```
 --dataroot ./Datasets/Images4TrainAFnonhybrid/List/test_nonhybrid/ 
@@ -127,17 +123,23 @@ Please modify the following parameters in test_AF4nonhybrid.sh if needed.
 --gpu_ids 0 
 --results_dir ./results/butterflyContest/nh/ #The savepath
 ```
-6. Run generating non-signal hybrid images. 
+Then, run
 ```bash
    cd AnomalyFactory
-   ./scripts/test_AF4hybrid.sh
+   ./scripts/test_AF4nonhybrid.sh
 ```
+6. Run generating non-signal hybrid images. 
 Please modify the following parameters in test_AF4hybrid.sh if needed.
 ```
 --dataroot ./Datasets/Images4TrainAFnonhybrid/List/test_nonsignalhybrid/ 
 --how_many 5 #The number of testing images
 --gpu_ids 0 
 --results_dir ./results/butterflyContest/nsh/
+```
+Then, run
+```bash
+   cd AnomalyFactory
+   ./scripts/test_AF4hybrid.sh
 ```
 7. Run generating signal hybrid images. 
 Please modify the following parameters in test_AF4hybrid.sh.
