@@ -89,7 +89,7 @@ Models
 │   ├── AF4nonhybrid
 │   │   ├── latest_net_G.pth
 │   │   └── latest_net_D.pth
-│   └── AF4hybrid/
+│   └── AF4hybrid
 │       ├── latest_net_G.pth
 │       └── latest_net_D.pth
 │
