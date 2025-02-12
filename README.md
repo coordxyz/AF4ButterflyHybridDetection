@@ -168,7 +168,7 @@ Datasets
 │       └── train_AFhybrid/...
 ```
 Note: Images4TrainAFhybrid and Images4TrainAFnonhybrid both contain only challenge images but with 500x333 and 256x256 resolutions respectively.  
-3. Run training hybrid generator.  
+3. Run training hybrid generator. Note:The training will be started from scratch.
 ```bash
    cd AnomalyFactory
    ./scripts/train_AF4hybrid.sh
