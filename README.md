@@ -155,7 +155,7 @@ Then, run
 ```
 ### Training
 1. Download training data (Images4TrainAFhybrid) from https://drive.google.com/file/d/1UUqLajOSo1faw_tE_JkWMMKvl_Ck6xdJ/view?usp=drive_link.
-2. Put the downloaded Images4TrainAFhybrid into path: Datasets/
+2. Put the downloaded Images4TrainAFhybrid into path: Datasets/  
 The structure of downloaded folder is shown below.
 ```
 Datasets
