@@ -186,6 +186,12 @@ Note: Images4TrainAFhybrid and Images4TrainAFnonhybrid both contain only challen
 Download pre-trained models (optional)
    [Edge extractor: PidiNet](https://github.com/hellozhuo/pidinet), [Feature extractor: DINOv2](https://github.com/facebookresearch/dinov2)
 
+## HeliconiusButterfly Dataset
+Statistic of dataset from [:new:AnomalyHybrid@CVPRW2025](https://arxiv.org/pdf/2504.04340)
+![](icons/anomalyhybrid-tab9-butterfly-trainset.png)
+![](icons/anomalyhybrid-tab10-butterfly-testset-nonhybrid.png)
+![](icons/anomalyhybrid-tab11-butterfly-testset-hybrid.png)
+
 ## Citation
 If you find this useful for your research, please use the following.
 
