@@ -205,4 +205,10 @@ If you find this useful for your research, please use the following.
   biburl       = {https://dblp.org/rec/journals/corr/abs-2408-09533.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
+@article{zhao2025anomalyhybrid,
+  title={AnomalyHybrid: A Domain-agnostic Generative Framework for General Anomaly Detection},
+  author={Zhao, Ying},
+  journal={arXiv preprint arXiv:2504.04340},
+  year={2025}
+}
 ```
